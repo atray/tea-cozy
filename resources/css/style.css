@@ -54,7 +54,6 @@ header nav{
 
 .image-content {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   width: 1200px;
   text-align: center;
@@ -66,12 +65,13 @@ header nav{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 116px;
+  padding-top: 70px;
 }
 
 /* Mission */
 
 .mission .image-content{
+  flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
 }
@@ -81,7 +81,33 @@ header nav{
 }
 /* Month */
 
+.month .monthly-teas{
+  display: inline-flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
 
+.month .tea-box{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.tea-box .monthly-image{
+  height:200px;
+}
+
+.tea-box p{
+  margin-top: 10px;
+}
+
+.monthly-teas.row-two{
+  width: 650px;
+}
 /* Locations* /
 
 
