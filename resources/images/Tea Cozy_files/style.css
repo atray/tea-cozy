@@ -9,9 +9,9 @@ body{
   text-align: center;
 }
 
-/* a {
+a {
   color: seashell;
-} */
+}
 
 div{
   border: 1px solid white;
@@ -20,7 +20,6 @@ div{
 nav span{
   display: inline-block;
   padding: 20px 10px;
-  text-decoration: underline;
 }
 /* Header */
 
@@ -52,33 +51,9 @@ header nav{
   padding-right: 10px;
 }
 
-.image-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1200px;
-  text-align: center;
-}
-
-/* Main Content Container */
-
-.content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 116px;
-}
-
 /* Mission */
 
-.mission .image-content{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  height: 700px;
-}
 
-.mission .mission-text{
-  background-color: black;
-}
 /* Month */
 
 
