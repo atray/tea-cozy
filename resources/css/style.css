@@ -9,18 +9,21 @@ body{
   text-align: center;
 }
 
-/* a {
-  color: seashell;
-} */
-
-div{
+/* div{
   border: 1px solid white;
-}
+} */
 
 nav span{
   display: inline-block;
   padding: 20px 10px;
   text-decoration: underline;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  text-align: center;
 }
 /* Header */
 
@@ -52,12 +55,7 @@ header nav{
   padding-right: 10px;
 }
 
-.image-content {
-  display: flex;
-  justify-content: center;
-  width: 1200px;
-  text-align: center;
-}
+
 
 /* Main Content Container */
 
@@ -108,7 +106,43 @@ header nav{
 .monthly-teas.row-two{
   width: 650px;
 }
-/* Locations* /
 
+/* Locations */
 
+.sites{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 15px;
+  width: 1200px;
+}
+
+.locations .image-content{
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+}
+
+.site {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+.title h2{
+  margin: 0px;
+}
 /* Footer */
+.info{
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
