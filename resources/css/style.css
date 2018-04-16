@@ -1,6 +1,7 @@
 /* Global Styles  */
 
 body{
+  margin: 0;
   font-family: "Helvetica";
   font-size: 22px;
   color: seashell;
@@ -8,10 +9,6 @@ body{
   opacity: 0.9;
   text-align: center;
 }
-
-/* div{
-  border: 1px solid white;
-} */
 
 nav span{
   display: inline-block;
@@ -25,6 +22,7 @@ nav span{
   width: 1200px;
   text-align: center;
 }
+
 /* Header */
 
 header{
@@ -36,8 +34,6 @@ header{
   height: 69px;
   border-bottom: 1px solid seashell;
   background: black;
-  /* font-family: "Helvetica", sans-serif;
-  font-size:  */
 }
 
 .logo{
@@ -55,8 +51,6 @@ header nav{
   padding-right: 10px;
 }
 
-
-
 /* Main Content Container */
 
 .content{
@@ -71,13 +65,16 @@ header nav{
 .mission .image-content{
   flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  height: 700px;
+  height: 500px;
+  margin-bottom: 40px;
 }
 
 .mission .mission-text{
   background-color: black;
 }
-/* Month */
+
+/* Tea of the Month */
+
 
 .month .monthly-teas{
   display: inline-flex;
@@ -105,6 +102,7 @@ header nav{
 
 .monthly-teas.row-two{
   width: 650px;
+  margin-bottom: 40px;
 }
 
 /* Locations */
@@ -116,6 +114,7 @@ header nav{
   align-content: center;
   justify-content: center;
   padding-top: 15px;
+  padding-bottom: 50px;
   width: 1200px;
 }
 
@@ -123,7 +122,9 @@ header nav{
   display: flex;
   flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width:1200px;
   height: 500px;
+  background-position: 50% 8%;
 }
 
 .site {
@@ -137,7 +138,9 @@ header nav{
 .title h2{
   margin: 0px;
 }
+
 /* Footer */
+
 .info{
   height: 200px;
 }
